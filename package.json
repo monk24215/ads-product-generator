@@ -1,0 +1,20 @@
+{
+  "name": "ads-product-generator",
+  "version": "1.0.0",
+  "description": "Spawn a new ads-product from the ads-product-template. Slug is identity.",
+  "type": "module",
+  "bin": {
+    "new-product": "./bin/new-product.js"
+  },
+  "scripts": {
+    "start": "node bin/new-product.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "license": "UNLICENSED"
+}
